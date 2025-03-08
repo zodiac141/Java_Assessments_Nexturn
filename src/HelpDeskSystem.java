@@ -33,6 +33,7 @@ class Employee {
     public void setAssignedCategory(String assignedCategory) {
         this.assignedCategory = assignedCategory;
     }
+}
 
 
     class Ticket {
@@ -220,4 +221,4 @@ class Employee {
             System.out.println("Completed tickets total point: " + helpDesk.getCompletedTicketsTotalPoint());
         }
     }
-}
+
